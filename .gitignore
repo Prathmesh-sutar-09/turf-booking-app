@@ -1,13 +1,26 @@
-# Backend
+# =========================
+# BACKEND (Flask / Python)
+# =========================
 backend/venv/
 backend/__pycache__/
-backend/*.db
+backend/**/*.pyc
 backend/.env
+backend/*.db
+backend/migrations/
 
-# Frontend
+# =========================
+# FRONTEND (Expo / React Native)
+# =========================
 mobile/node_modules/
 mobile/.expo/
 mobile/.env
+mobile/npm-debug.log*
+mobile/yarn-error.log*
 
-# OS / Editor
+# =========================
+# OS & EDITOR FILES
+# =========================
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
